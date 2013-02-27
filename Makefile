@@ -2,7 +2,7 @@
 PROJ=wde
 SITE=_site
 GH_PAGES=gh-pages
-BASE_URL=/wdevelopment
+BASE_URL=/WDEvelopment
 JEKYLL_FLAGS=--no-auto --no-server --base-url $(BASE_URL)
 
 all : $(PROJ)
