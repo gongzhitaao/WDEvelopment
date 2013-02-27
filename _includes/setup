@@ -1,0 +1,14 @@
+{% capture mycache %}
+
+{% if site.baseurl %}
+   {% assign BASE_PATH = site.baseurl %}
+{% else %}
+   {% assign BASE_PATH = nil %}
+{% endif %}
+
+{% capture ASSET_PATH %}{{ BASE_PATH }}/assets{% endcapture %}
+
+{% assign MEMBERS = 'jamal,jordan,kelly,kevin,leo,nathan,steven,tausif,zhitao' | split:',' %}
+
+{% endcapture %}
+{% assign mycache = nil %}

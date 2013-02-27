@@ -1,0 +1,79 @@
+---
+---
+{% include setup %}
+
+/*
+ * Standard tweaks
+ */
+
+html,body{height:100%}
+
+body{font:normal normal normal 14px/1.5em
+     "Helvetica Neue", Helvetica, Helvetica, Georgia, sans-serif}
+
+h1{font-size:2em}
+h2{font-size:1.5em}
+h3{font-size:1.17em}
+h4{font-size:1em}
+h5{font-size:.83em}
+h6{font-size:.75em}
+
+/*
+ * Custom tweaks
+ */
+
+/* sticky footer */
+#wrapper{min-height:100%}
+#content-wrapper{overflow:auto;padding-bottom:60}
+
+#footer{text-align:center;/* background:#03244D!important; */
+        position:relative;margin-top:-60px;height:60px;clear:both}
+#footer p{margin-bottom:0;color:#DDD}
+.footer-links{margin:10px 0}
+.footer-links li{display:inline;padding:0 2px}
+.footer-links a{color:#DDD}
+
+.container-narrow{margin:0 auto;max-width:700px}
+.container-narrow>hr{margin:30px 0}
+
+.navbar-inner .brand{margin-left:20px;color:green}
+
+.logo{position:absolute;
+      padding:64px 20px 80px 0;
+      top:50%;margin-top:-180px;
+      left:50%;margin-left:-520px}
+.logo-title{font:normal normal normal
+      70px/1.5em OrangeJuice, Georgia, sans-serif}
+.logo-title h1{font-weight:normal}
+.logo-title a{text-decoration:none;color:green;}
+.logo-em{font-family:EternalCall;padding:64px 0 64px 128px}
+
+.navbar-fixed-top-spacing{height:48px}
+
+.thumbnail{margin:10px}
+.thumbnail.right-caption>img {float:left;margin-right:9px}
+.thumbnail.right-caption{float:left}
+.thumbnail.right-caption>.caption{padding:4px}
+
+@font-face {
+    font-family:'OrangeJuice';
+    src: url('{{ ASSET_PATH }}/font/orange_juice-webfont.eot');
+    src: url('{{ ASSET_PATH }}/font/orange_juice-webfont.eot?#iefix') format('embedded-opentype'),
+    url('{{ ASSET_PATH }}/font/orange_juice-webfont.woff') format('woff'),
+    url('{{ ASSET_PATH }}/font/orange_juice-webfont.ttf') format('truetype'),
+    url('{{ ASSET_PATH }}/font/orange_juice-webfont.svg#orange_juiceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'EternalCall';
+	src: url('{{ ASSET_PATH }}/font/eternalcall.eot');
+	src: url('{{ ASSET_PATH }}/font/eternalcall.eot?#iefix') format('embedded-opentype'),
+	url('{{ ASSET_PATH }}/font/eternalcall.woff') format('woff'),
+	url('{{ ASSET_PATH }}/font/eternalcall.ttf') format('truetype'),
+	url('{{ ASSET_PATH }}/font/eternalcall.svg#eternalcall') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

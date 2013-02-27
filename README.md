@@ -1,4 +1,4 @@
 WDEvelopment
 ============
 
-COMP7970 Game Development
+COMP7970 Game Development Website
