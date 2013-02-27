@@ -57,11 +57,11 @@ h6{font-size:.75em}
 
 @font-face {
     font-family:'OrangeJuice';
-    src: url('/wdevelopment/assets/font/orange_juice-webfont.eot');
-    src: url('/wdevelopment/assets/font/orange_juice-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/wdevelopment/assets/font/orange_juice-webfont.woff') format('woff'),
-    url('/wdevelopment/assets/font/orange_juice-webfont.ttf') format('truetype'),
-    url('/wdevelopment/assets/font/orange_juice-webfont.svg#orange_juiceregular') format('svg');
+    src: url('/WDEvelopment/assets/font/orange_juice-webfont.eot');
+    src: url('/WDEvelopment/assets/font/orange_juice-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/WDEvelopment/assets/font/orange_juice-webfont.woff') format('woff'),
+    url('/WDEvelopment/assets/font/orange_juice-webfont.ttf') format('truetype'),
+    url('/WDEvelopment/assets/font/orange_juice-webfont.svg#orange_juiceregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -69,11 +69,11 @@ h6{font-size:.75em}
 
 @font-face {
 	font-family: 'EternalCall';
-	src: url('/wdevelopment/assets/font/eternalcall.eot');
-	src: url('/wdevelopment/assets/font/eternalcall.eot?#iefix') format('embedded-opentype'),
-	url('/wdevelopment/assets/font/eternalcall.woff') format('woff'),
-	url('/wdevelopment/assets/font/eternalcall.ttf') format('truetype'),
-	url('/wdevelopment/assets/font/eternalcall.svg#eternalcall') format('svg');
+	src: url('/WDEvelopment/assets/font/eternalcall.eot');
+	src: url('/WDEvelopment/assets/font/eternalcall.eot?#iefix') format('embedded-opentype'),
+	url('/WDEvelopment/assets/font/eternalcall.woff') format('woff'),
+	url('/WDEvelopment/assets/font/eternalcall.ttf') format('truetype'),
+	url('/WDEvelopment/assets/font/eternalcall.svg#eternalcall') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
