@@ -7,7 +7,7 @@ JEKYLL_FLAGS=--no-auto --no-server --base-url $(BASE_URL)
 
 all : $(PROJ)
 
-wde :
+$(PROJ) :
 	jekyll $(JEKYLL_FLAGS)
 
 master :
@@ -16,6 +16,7 @@ master :
 
 gh-pages : wde
 	cp -rp $(SITE)/* $(GH_PAGES)/ && cd $(GH_PAGES)/
-	git add . && git commit -a && git push origin gh-pages HEAD:gh-pages
+	git add . && git commit
+	git push origin gh-pages
 
-.PHONE : all pcaweb master gh-pages
+.PHONE : all $(PROJ) master gh-pages
