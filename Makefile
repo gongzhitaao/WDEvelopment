@@ -11,7 +11,8 @@ wde :
 	jekyll $(JEKYLL_FLAGS)
 
 master :
-	git add . && git commit -a && git push origin master
+	git add . && git commit
+	git push origin master
 
 gh-pages : wde
 	cp -rp $(SITE)/* $(GH_PAGES)/ && cd $(GH_PAGES)/
