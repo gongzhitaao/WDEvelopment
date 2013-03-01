@@ -4,6 +4,9 @@ server: true
 baseurl: false
 
 pygments: true
-markdown: rdiscount
+
+maruku:
+  use_tex: true
+  use_divs: true
 
 exclude: ["gh-pages", "Makefile"]

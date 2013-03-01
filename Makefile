@@ -15,8 +15,7 @@ master :
 	git push origin master
 
 gh-pages : wde
-	cp -rp $(SITE)/* $(GH_PAGES)/ && cd $(GH_PAGES)/
-	git add . && git commit
-	git push origin gh-pages
+	cp -rp $(SITE)/* $(GH_PAGES)/ && cd $(GH_PAGES)/;\
+	git add . && git commit && git push origin gh-pages
 
 .PHONE : all $(PROJ) master gh-pages
