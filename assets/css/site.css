@@ -55,6 +55,8 @@ h6{font-size:.75em}
 .thumbnail.right-caption{float:left}
 .thumbnail.right-caption>.caption{padding:4px}
 
+.files{list-style-type:none;}
+
 @font-face {
     font-family:'OrangeJuice';
     src: url('/WDEvelopment/assets/font/orange_juice-webfont.eot');
