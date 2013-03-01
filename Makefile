@@ -15,6 +15,6 @@ master :
 
 gh-pages : wde
 	cp -rp $(SITE)/* $(GH_PAGES)/ && cd $(GH_PAGES)/
-	git add . && git commit -a && git push origin gh-pages
+	git add . && git commit -a && git push origin gh-pages HEAD:gh-pages
 
 .PHONE : all pcaweb master gh-pages
