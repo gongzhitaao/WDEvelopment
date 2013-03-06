@@ -9,4 +9,5 @@ maruku:
   use_tex: true
   use_divs: true
 
+include: [".htaccess"]
 exclude: ["gh-pages", "Makefile"]

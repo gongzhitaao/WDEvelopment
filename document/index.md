@@ -1,4 +1,5 @@
 ---
+title: document
 layout: default
 ---
 

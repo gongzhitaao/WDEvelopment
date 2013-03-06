@@ -18,9 +18,6 @@
         if (path != '{{ BASE_PATH }}/')
             $('#mainnav li:nth-child(' + menuidx[path] + ')')
             .addClass('active');
-
-        $(".files").linktype();
-
     });
 
 })(jQuery);

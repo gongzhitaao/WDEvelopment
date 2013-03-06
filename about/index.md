@@ -13,7 +13,7 @@ layout: default
 <li>
 <div class="thumbnail right-caption span4">
 <img data-src="holder.js/100x100"
-src="{{ ASSET_PATH }}/img/members/{{m}}.jpg"></img>
+src="{{ ASSET_PATH }}/img/members/{{m}}.jpg"/>
 <div class="caption">
 {{ m | capitalize}}
 </div>

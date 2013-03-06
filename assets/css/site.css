@@ -79,3 +79,9 @@ h6{font-size:.75em}
 	font-weight: normal;
 	font-style: normal;
 }
+
+[data-icon]:before {
+    font-family: 'EternalCall';
+    content: attr(data-icon);
+    speak: none;
+}
