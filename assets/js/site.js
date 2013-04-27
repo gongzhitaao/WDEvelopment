@@ -17,6 +17,12 @@
         if (path != '/WDEvelopment/')
             $('#mainnav li:nth-child(' + menuidx[path] + ')')
             .addClass('active');
+
+        $('#parallax .parallax-layer')
+            .parallax({
+                mouseport: $('#wrapper')
+            });
+
     });
 
 })(jQuery);

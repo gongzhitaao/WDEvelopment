@@ -7,10 +7,29 @@
 
   <head>
     <meta charset="utf-8"/>
+
     <link rel="stylesheet" href="/WDEvelopment/assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/WDEvelopment/assets/css/bootstrap-responsive.min.css"/>
     <link rel="stylesheet" href="/WDEvelopment/assets/css/jquery-filetype.css"/>
+    <link rel="stylesheet" href="/WDEvelopment/assets/css/jquery.parallax.css"/>
     <link rel="stylesheet" href="/WDEvelopment/assets/css/site.css"/>
+
+    <style type="text/css" media="screen, projection">
+      .parallax-viewport {
+      width: 100%;
+      max-width: 100em;
+      height: 50em;
+      }
+
+      .diagram {
+      margin-top: -0.75em;
+      }
+
+	  small {
+	  text-transform: uppercase;
+	  }
+	</style>
+
+
   </head>
 
   <body>
@@ -39,16 +58,35 @@
 
       </div>
 
+      <div class="parallax-viewport" id="parallax">
+
+        <!-- parallax layers -->
+        <div class="parallax-layer" style="width:100px; position:absolute; left:800px; top:0px;">
+          <img src="/WDEvelopment/assets/img/kid.png" alt=""/>
+        </div>
+
+        <div class="parallax-layer" style="width:1000px; height:500px;">
+          <img src="/WDEvelopment/assets/img/needle_up-02.png" alt=""/>
+        </div>
+      </div>
+
+
     </div>
-    <div id="footer">
+
+    <div class="footer">
+
     </div>
 
     <!-- script -->
     <script src="/WDEvelopment/assets/js/jquery-1.9.1.min.js"></script>
-    <script src="/WDEvelopment/assets/js/jquery-ui-1.10.1.custom.min.js"></script>
+    <script src="/WDEvelopment/assets/js/jquery.parallax.js"></script>
+    <script src="/WDEvelopment/assets/js/jquery.event.frame.js"></script>
     <script src="/WDEvelopment/assets/js/bootstrap.min.js"></script>
     <script src="/WDEvelopment/assets/js/jquery-filetype.js"></script>
     <script src="/WDEvelopment/assets/js/site.js"></script>
+
+    <script>
+    </script>
 
     
     </script>
